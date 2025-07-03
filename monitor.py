@@ -1,3 +1,7 @@
+import playwright
+from playwright.sync_api import sync_playwright
+playwright.sync_playwright = sync_playwright
+
 from TikTokApi import TikTokApi
 import schedule, time, datetime
 
